@@ -38,12 +38,12 @@ const getInitialQuery = (searchParams) => {
 }
 
 const sumProducts = (products) => {
-    const itemCounter = products.reduce((acc, cur) => acc + cur.quantity, 0);
+    const itemsCounter = products.reduce((acc, cur) => acc + cur.quantity, 0);
     const totalPrice = products
     .reduce((acc, cur) => acc + cur.price * cur.quantity, 0)
     .toFixed(2);
 
-    return { itemCounter,totalPrice };
+    return { itemsCounter,totalPrice };
 };
 
 const productQuantity = (state, id) => {
