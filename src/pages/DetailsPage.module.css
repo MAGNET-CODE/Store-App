@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    align-items: flex-start;
+}
+.container img {
+    width: 300px;
+    padding: 15px 25px;
+    background-color: #fff;
+    border: 2px solid #fe5d42;
+    margin: 10px;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+.information {
+    width: 100%;
+    border: 2px solid #e2e2e2;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 50px;
+}
+.title {
+    color: #fe5d42;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+.description {
+    color: gray;
+    width: 500px;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+.category {
+    margin-bottom: 20px;
+}
+.category svg,
+.information span svg {
+    color: #fe5d42;
+    margin-right: 10px;
+}
+.information div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.information a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fe5d42;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 12px;
+    gap: 10px;
+}
