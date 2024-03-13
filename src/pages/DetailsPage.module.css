@@ -1,6 +1,7 @@
 .container {
     width: 100%;
-    min-height: 1000px;
+    min-height: 100vh;
+    height: auto;
     display: flex;
     align-items: flex-start;
 }
@@ -32,7 +33,7 @@
     margin-bottom: 40px;
 }
 .category {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .category svg,
 .information span svg {
