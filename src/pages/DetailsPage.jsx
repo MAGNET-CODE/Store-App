@@ -22,7 +22,6 @@ function DetailsPage() {
      store.product.products.find((i) => i.id === +id)
   );
 
-  // const {title, image, price, description, category} = productDeatils;
   if(!productDeatils) return <Loader />;
 
   return (
